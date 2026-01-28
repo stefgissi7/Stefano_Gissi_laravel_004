@@ -8,7 +8,7 @@ class PageController extends Controller{
 
 
 
-public function Homepage() {
+public function home() {
     return view('welcome');
 }
 
